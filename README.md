@@ -14,3 +14,4 @@ here are the questions asked: \
 
 
 There are gonna be more added soon. I also need A LOT more data to have this work well.
+Data provided by AI. I'm too lazy to do it all manually.

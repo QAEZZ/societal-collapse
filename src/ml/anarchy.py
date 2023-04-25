@@ -9,10 +9,10 @@ print("importing keras")
 from keras.layers import Dense, Dropout
 from keras.models import Sequential
 from keras.utils import to_categorical
-print("importing sklearn")
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-from sklearn.model_selection import train_test_split
+# print("importing sklearn")
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.metrics import accuracy_score, precision_score, recall_score
+# from sklearn.model_selection import train_test_split
 
 
 def clear():
@@ -192,6 +192,123 @@ def train(population, political_stability, police_strength, weapon_access, herd_
             "Herd Mentality": "med",
             "Ideology": ["autocracy"],
             "Anarchy": "yes"
+        },
+        {
+            "Population": 10000000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "no",
+            "Herd Mentality": "low",
+            "Ideology": ["anarchism", "communism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 5000000,
+            "Political Stability": "low",
+            "Police Strength": "med",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["fascism", "marxism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 20000000,
+            "Political Stability": "med",
+            "Police Strength": "low",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["autocracy", "jacobinism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 10000000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["anarchism", "communism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 5000000,
+            "Political Stability": "low",
+            "Police Strength": "med",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["fascism", "marxism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 20000000,
+            "Political Stability": "med",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["autocracy", "jacobinism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 3000000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["anarchism", "socialism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 1000000,
+            "Political Stability": "high",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["anarchism", "communism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 50000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "high",
+            "Ideology": ["anarchism", "communism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 250000,
+            "Political Stability": "med",
+            "Police Strength": "med",
+            "Weapon Access": "med",
+            "Herd Mentality": "high",
+            "Ideology": ["jacobinism", "socialism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 75000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "med",
+            "Ideology": ["anarchism", "fascism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 200000,
+            "Political Stability": "med",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "high",
+            "Ideology": ["autocracy", "marxism"],
+            "Anarchy": "yes"
+        },
+        {
+            "Population": 100000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["anarchism", "socialism"],
+            "Anarchy": "yes"
         }
     ]
 
@@ -281,11 +398,146 @@ def train(population, political_stability, police_strength, weapon_access, herd_
             "Population": 8700000,
             "Political Stability": "high",
             "Police Strength": "high",
-            "Weapon Access": "low",
+            "Weapon Access": "no",
             "Herd Mentality": "low",
             "Ideology": ["democracy", "parliamentarian democracy"],
             "Anarchy": "no"
         },
+        {
+            "Population": 3000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["democracy", "liberalism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 8000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "low",
+            "Ideology": ["democracy", "parliamentarian democracy"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 5000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "yes",
+            "Herd Mentality": "high",
+            "Ideology": ["monarchy", "autocracy"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 10000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "med",
+            "Ideology": ["socialism", "communism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 35000000,
+            "Political Stability": "low",
+            "Police Strength": "med",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["fascism", "marxism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 5000000,
+            "Political Stability": "med",
+            "Police Strength": "low",
+            "Weapon Access": "no",
+            "Herd Mentality": "low",
+            "Ideology": ["jacobinism", "democracy"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 2000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["constitutional monarchy", "conservatism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 1000000,
+            "Political Stability": "low",
+            "Police Strength": "med",
+            "Weapon Access": "yes",
+            "Herd Mentality": "high",
+            "Ideology": ["anarchism", "socialism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 7000000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["democracy", "libertarianism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 10000000,
+            "Political Stability": "med",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "low",
+            "Ideology": ["monarchy", "fascism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 100000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["democracy", "socialism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 50000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["autocracy", "fascism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 250000,
+            "Political Stability": "med",
+            "Police Strength": "med",
+            "Weapon Access": "no",
+            "Herd Mentality": "high",
+            "Ideology": ["democracy", "social democracy"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 75000,
+            "Political Stability": "low",
+            "Police Strength": "low",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["anarchism", "socialism"],
+            "Anarchy": "no"
+        },
+        {
+            "Population": 200000,
+            "Political Stability": "high",
+            "Police Strength": "high",
+            "Weapon Access": "yes",
+            "Herd Mentality": "low",
+            "Ideology": ["monarchy", "conservatism"],
+            "Anarchy": "no"
+        }
     ]
 
     user_input = {
@@ -380,8 +632,7 @@ def train(population, political_stability, police_strength, weapon_access, herd_
     confidence = proba[0][1]
     print(confidence)
 
-    # Use the confidence value to determine the predicted class ('yes' or 'no')
-    # prediction = "yes" if confidence >= 0.5 else "no"
+    # Use the confidence value to determine the predicted class ('yes', 'no', or 'maybe)
     if confidence < .5:
         prediction = "no"
     elif confidence >= .6:
