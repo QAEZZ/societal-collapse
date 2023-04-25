@@ -654,7 +654,7 @@ Herd Mentality.....: low
 Ideology...........: ['democracy']
 Epochs.............: 50
 
-Will "Society X" fall info anarchy? no
+Will "Society X" fall into anarchy? no
 
 -----------------------------------------
 
