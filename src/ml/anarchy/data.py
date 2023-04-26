@@ -1,7 +1,6 @@
 anarchy_societies = [
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -11,7 +10,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -21,7 +19,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -31,7 +28,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -41,7 +37,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -51,7 +46,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -61,7 +55,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "med",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -71,7 +64,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "high",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -81,7 +73,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -91,7 +82,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "med",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -101,7 +91,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "no",
@@ -111,7 +100,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -121,7 +109,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "low",
         "Weapon Access": "no",
@@ -131,7 +118,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -141,7 +127,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -151,7 +136,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "low",
         "Political Stability": "med",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -161,7 +145,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "no",
@@ -171,7 +154,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "low",
         "Political Stability": "high",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -181,7 +163,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -191,7 +172,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "low",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "med",
         "Weapon Access": "med",
@@ -201,7 +181,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "low",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -211,7 +190,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "low",
         "Political Stability": "med",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -221,7 +199,6 @@ anarchy_societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -234,7 +211,6 @@ anarchy_societies = [
 societies = [
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -244,7 +220,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -254,7 +229,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "med",
         "Weapon Access": "no",
@@ -264,7 +238,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -274,7 +247,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -284,7 +256,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -294,7 +265,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -304,7 +274,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "high",
         "Weapon Access": "yes",
@@ -314,7 +283,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -324,7 +292,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -334,7 +301,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -344,7 +310,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -354,7 +319,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "yes",
@@ -364,7 +328,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "high",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -374,7 +337,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "high",
         "Political Stability": "low",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -384,7 +346,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "high",
         "Political Stability": "med",
         "Police Strength": "low",
         "Weapon Access": "no",
@@ -394,7 +355,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -404,7 +364,6 @@ societies = [
     },
     {
         "Citizen Happiness": "high",
-        "Economic Stability": "med",
         "Political Stability": "low",
         "Police Strength": "med",
         "Weapon Access": "yes",
@@ -414,7 +373,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -424,7 +382,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "med",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -434,7 +391,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "no",
@@ -444,7 +400,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -454,7 +409,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "med",
         "Police Strength": "med",
         "Weapon Access": "no",
@@ -464,7 +418,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "high",
         "Political Stability": "low",
         "Police Strength": "low",
         "Weapon Access": "yes",
@@ -474,7 +427,6 @@ societies = [
     },
     {
         "Citizen Happiness": "med",
-        "Economic Stability": "med",
         "Political Stability": "high",
         "Police Strength": "high",
         "Weapon Access": "yes",
