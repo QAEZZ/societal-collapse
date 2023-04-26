@@ -31,6 +31,8 @@ def ask():
     clear()
     citizen_happiness = input("How happy are the citizens?\n[low, med, high]\n >>> ")
     clear()
+    economic_stability = input("How is the economic stability?\n[low, med, high]\n >>> ")
+    clear()
     political_stability = input("How is the political stability?\n[low, med, high]\n >>> ")
     clear()
     police_strength = input("What is the strength/effectiveness of the police?\n[low, med, high]\n >>> ")
@@ -49,6 +51,7 @@ def ask():
 
     """
     - Citizen Happiness: Low, Medium, High (3 Values)
+    - Economic stability: Low, Medium, High (3 values)
     - Political stability: Low, Medium, High (3 values)
     - Police strength: Low, Medium, High (3 values)
     - Easy weapon access: Yes, No (2 values)
@@ -58,6 +61,7 @@ def ask():
 
     prediction = train(
         citizen_happiness=citizen_happiness,
+        economic_stability=economic_stability,
         political_stability=political_stability,
         police_strength=police_strength,
         weapon_access=weapon_access,
@@ -69,6 +73,7 @@ def ask():
 
     print(f"""
 Citizen Happiness..: {citizen_happiness}
+Economic Stability.: {economic_stability}
 Political stability: {political_stability}
 Police strength....: {police_strength}
 Weapon Access......: {weapon_access}
@@ -84,10 +89,11 @@ Dataframe:
 """)
 
 
-def train(citizen_happiness, political_stability, police_strength, weapon_access, herd_mentality, ideology, epochs):
+def train(citizen_happiness, economic_stability, political_stability, police_strength, weapon_access, herd_mentality, ideology, epochs):
     data = pd.DataFrame(
         columns=[
             "Citizen Happiness",
+            "Economic Stability",
             "Political Stability",
             "Police Strength",
             "Weapon Access",
@@ -100,6 +106,7 @@ def train(citizen_happiness, political_stability, police_strength, weapon_access
 
     user_input = {
         "Citizen Happiness": citizen_happiness,
+        "Economic Stability": economic_stability,
         "Political Stability": political_stability,
         "Police Strength": police_strength,
         "Weapon Access": weapon_access,
