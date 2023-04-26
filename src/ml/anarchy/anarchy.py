@@ -29,6 +29,8 @@ def ask():
     clear()
     society = input("What is the name of your society?\n[string]\n >>> ")
     clear()
+    citizen_happiness = input("How happy are the citizens?\n[low, med, high]\n >>> ")
+    clear()
     political_stability = input("How is the political stability?\n[low, med, high]\n >>> ")
     clear()
     police_strength = input("What is the strength/effectiveness of the police?\n[low, med, high]\n >>> ")
@@ -37,7 +39,7 @@ def ask():
     clear()
     herd_mentality = input("What is the herd mentality like?\n[low, med, high]\n >>> ")
     clear()
-    ideology = input("What is/are the ideology(ies)?\n[democracy, anarchism, facism, marxism, monarchy, autocracy, jacobinism, communism, socialism, parliamentarian democracy, constitutional monarchy]\n\nEx.\n['socialism', 'marxism']\n['democracy', 'jacobinism']\n >>> ")
+    ideology = input("What is/are the ideology(ies)?\n[democracy, anarchism, facism, marxism, monarchy, autocracy, communism, socialism, parliamentarian democracy, constitutional monarchy]\n\nEx.\n['socialism', 'marxism']\n['democracy', 'jacobinism']\n >>> ")
     clear()
     try:
         epochs = int(input("How many epochs?\n[integer]\n >>> "))
@@ -46,6 +48,7 @@ def ask():
         epochs = 50
 
     """
+    - Citizen Happiness: Low, Medium, High (3 Values)
     - Political stability: Low, Medium, High (3 values)
     - Police strength: Low, Medium, High (3 values)
     - Easy weapon access: Yes, No (2 values)
@@ -54,6 +57,7 @@ def ask():
     """
 
     prediction = train(
+        citizen_happiness=citizen_happiness,
         political_stability=political_stability,
         police_strength=police_strength,
         weapon_access=weapon_access,
@@ -64,6 +68,7 @@ def ask():
     clear()
 
     print(f"""
+Citizen Happiness..: {citizen_happiness}
 Political stability: {political_stability}
 Police strength....: {police_strength}
 Weapon Access......: {weapon_access}
@@ -79,9 +84,10 @@ Dataframe:
 """)
 
 
-def train(political_stability, police_strength, weapon_access, herd_mentality, ideology, epochs):
+def train(citizen_happiness, political_stability, police_strength, weapon_access, herd_mentality, ideology, epochs):
     data = pd.DataFrame(
         columns=[
+            "Citizen Happiness",
             "Political Stability",
             "Police Strength",
             "Weapon Access",
@@ -93,6 +99,7 @@ def train(political_stability, police_strength, weapon_access, herd_mentality, i
 
 
     user_input = {
+        "Citizen Happiness": citizen_happiness,
         "Political Stability": political_stability,
         "Police Strength": police_strength,
         "Weapon Access": weapon_access,
@@ -101,6 +108,7 @@ def train(political_stability, police_strength, weapon_access, herd_mentality, i
         "Anarchy": "?",
     }
 
+    # LOGISTIC REGRESSION MODEL
     """
     user_input_df = pd.DataFrame(user_input, index=[0])
     data = pd.concat([data, user_input_df], ignore_index=True)
@@ -198,25 +206,3 @@ def train(political_stability, police_strength, weapon_access, herd_mentality, i
     user_input_df["Confidence"] = confidence
 
     return prediction, user_input_df, confidence
-
-"""
-Political stability: high
-Police strength....: high
-Weapon Access......: no
-Herd Mentality.....: low
-Ideology...........: ['democracy']
-Epochs.............: 50
-
-Will "Society X" fall into anarchy? no
-
------------------------------------------
-
-Political stability: high
-Police strength....: med
-Weapon Access......: yes
-Herd Mentality.....: low
-Ideology...........: ['democracy']
-Epochs.............: 1000
-
-Will "Society X" fall into anarchy? no
-"""

@@ -5,6 +5,7 @@ work in progress
 only option right now is societal collapse by anarchy.
 
 here are the questions asked: \
+    - Citizen Happiness: Low, Medium, High (3 values) \
     - Political stability: Low, Medium, High (3 values) \
     - Police strength: Low, Medium, High (3 values) \
     - Easy weapon access: Yes, No (2 values) \
