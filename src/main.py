@@ -1,4 +1,4 @@
-import ml.anarchy as anarchy
+import ml.anarchy.anarchy as anarchy
 
 def main():
     print("""
