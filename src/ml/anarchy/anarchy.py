@@ -39,7 +39,7 @@ def ask():
     clear()
     herd_mentality = input("What is the herd mentality like?\n[low, med, high]\n >>> ")
     clear()
-    ideology = input("What is/are the ideology(ies)?\n[democracy, anarchism, facism, marxism, monarchy, autocracy, communism, socialism, parliamentarian democracy, constitutional monarchy]\n\nEx.\n['socialism', 'marxism']\n['democracy', 'jacobinism']\n >>> ")
+    ideology = input("What is/are the ideology(ies)?\n[democracy, anarchism, facism, marxism, monarchy, autocracy, communism, socialism, parliamentarian democracy, constitutional monarchy]\n\nEx.\n['socialism', 'marxism']\n >>> ")
     clear()
     try:
         epochs = int(input("How many epochs?\n[integer]\n >>> "))
